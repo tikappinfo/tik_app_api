@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API URL</title>
+</head>
+<body>
+    <script>
+        // Define your API URL
+        const apiUrl = "https://admin.tikapp.info";
+        
+        // Create JSON object with the API URL
+        const apiResponse = [{
+            "apiurl": apiUrl
+        }];
+        
+        // Convert JSON object to string
+        const jsonString = JSON.stringify(apiResponse);
+        
+        // Output JSON response directly
+        document.body.innerHTML = jsonString;
+    </script>
+</body>
+</html>
